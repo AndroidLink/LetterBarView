@@ -12,11 +12,14 @@
     <dimen name="lb_overlay_text_size">40sp</dimen>
 
     <!-- Overlay color -->
-    <color name="lb_bg_overlay_color">#66CA0000</color>
+    <color name="lb_bg_overlay_color">#44000000</color>
     <color name="lb_overlay_text_color">#FFF</color>
 
-    <!-- letter text color -->
+    <!-- letter bar text color -->
     <color name="lb_text_color_focus">#000</color>
     <color name="lb_text_color_normal">#FFF</color>
 
+    <!-- letter bar background color -->
+    <color name="lb_bg_bar_pressed">#44000000</color>
+    <color name="lb_bg_bar_normal">#44000000</color>
 </resources>

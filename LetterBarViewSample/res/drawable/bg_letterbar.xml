@@ -4,5 +4,4 @@
     <item android:drawable="@drawable/bg_letterbar_pressed" android:state_selected="true"/>
     <item android:drawable="@drawable/bg_letterbar_pressed" android:state_focused="true"/>
     <item android:drawable="@drawable/bg_letterbar_unpressed" />
-
 </selector>

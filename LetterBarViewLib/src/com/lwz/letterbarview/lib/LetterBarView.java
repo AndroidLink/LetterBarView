@@ -126,8 +126,7 @@ public class LetterBarView extends View {
 
     private OnLetterSelectListener mOnLetterSelectListener;
 
-    private String[] mLetters = {"#", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J",
-            "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+    private String[] mLetters = LETTERS;
     private int mCount = mLetters.length;
     private int mLastIndex = -1;
 
@@ -168,9 +167,9 @@ public class LetterBarView extends View {
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         setBackgroundColor(Color.TRANSPARENT);
 
-        setLetterBarBackgrond(Color.parseColor("#88000000"), Color.parseColor("#66000000"));
-        setLetterBarTextColor(Color.BLUE, Color.WHITE);
-        setOverlayBackgroundColor(Color.parseColor("#88000000"));
+//        setLetterBarBackgrond(Color.parseColor("#88000000"), Color.parseColor("#66000000"));
+//        setLetterBarTextColor(Color.BLUE, Color.WHITE);
+//        setOverlayBackgroundColor(Color.parseColor("#88000000"));
 
         if( attrs != null ) {
             TypedArray a = getResources().obtainAttributes(attrs, R.styleable.LetterBar);
@@ -184,6 +183,7 @@ public class LetterBarView extends View {
             if( a.hasValue(R.styleable.LetterBar_lbOverlayBackground) ) {
                 mOverlayBackground = a.getDrawable(R.styleable.LetterBar_lbOverlayBackground);
             }
+
             mOverlayTextColor = a.getColor(R.styleable.LetterBar_lbOverlayTextColor, mOverlayTextColor);
             mOverlayTextSize = a.getDimension(R.styleable.LetterBar_lbOverlayTextSize, mOverlayTextSize);
 
