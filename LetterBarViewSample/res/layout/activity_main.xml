@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:cacheColorHint="#00000000"
+        android:scrollbars="none"
         android:paddingRight="20dp" />
 
     <com.lwz.letterbarview.lib.LetterBarView
@@ -17,10 +18,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="right"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp"
-        letterBar:lbOverlayTextSize="40sp"
-        letterBar:lbOverlayTextColor="#FFF"
+        android:paddingTop="@dimen/lb_bar_padding_top"
+        android:paddingBottom="@dimen/lb_bar_padding_bottom"
+        letterBar:lbOverlayTextSize="@dimen/lb_overlay_text_size"
+        letterBar:lbOverlayTextColor="@color/lb_overlay_text_color"
         letterBar:lbOverlayBackground="@drawable/bg_overlay"
         letterBar:lbLetterBarTextColor="@color/selector_letterbar_text"
         letterBar:lbLetterBarBackground="@drawable/bg_letterbar" />

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android" >
-    <size android:width="80dp" android:height="80dp" />
-    <corners android:radius="5dp"/>
-    <solid android:color="#66CA0000"/>
+    <size android:width="@dimen/lb_bg_overlay_width"
+        android:height="@dimen/lb_bg_overlay_height" />
+    <corners android:radius="@dimen/lb_bg_overlay_radius"/>
+    <solid android:color="@color/lb_bg_overlay_color"/>
 </shape>

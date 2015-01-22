@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bar padding -->
+    <dimen name="lb_bar_padding_top">10dp</dimen>
+    <dimen name="lb_bar_padding_bottom">10dp</dimen>
+
+    <!-- Overlay background dimension -->
+    <dimen name="lb_bg_overlay_width">80dp</dimen>
+    <dimen name="lb_bg_overlay_height">80dp</dimen>
+    <dimen name="lb_bg_overlay_radius">40dp</dimen>
+
+    <dimen name="lb_overlay_text_size">40sp</dimen>
+
+    <!-- Overlay color -->
+    <color name="lb_bg_overlay_color">#66CA0000</color>
+    <color name="lb_overlay_text_color">#FFF</color>
+
+    <!-- letter text color -->
+    <color name="lb_text_color_focus">#000</color>
+    <color name="lb_text_color_normal">#FFF</color>
+
+</resources>
